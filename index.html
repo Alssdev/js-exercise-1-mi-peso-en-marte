@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi peso en Marte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121d2b;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: #1e2a3a;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    label {
+      display: block;
+      margin: 1rem 0 0.5rem;
+    }
+
+    input[type="number"] {
+      padding: 0.5rem;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff7043;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff5722;
+    }
+
+    .resultado {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #80cbc4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mi peso en Marte</h1>
+    <label for="pesoTierra">Ingresa tu peso en la Tierra (kg):</label>
+    <input type="number" id="pesoTierra" placeholder="Ej. 70">
+    <button id="calcularBtn">Calcular</button>
+  </div>
+
+  <script>
+    // TODO: Aquí los estudiantes deben escribir el JS para:
+    // 1. Obtener el valor del input
+    // 2. Calcular el peso en Marte (peso en Marte = peso en Tierra * 0.38)
+    // 3. Mostrar el resultado en el div con id="resultado"
+  </script>
+</body>
+</html>
